@@ -1,0 +1,526 @@
+1. Login
+2. Sign up
+3.Exit
+Enter your choice: 1
+Enter your username: abc
+Enter your password: abc
+Login successful!
+
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 0
+History of C Language
+Dennis Ritchie - founder of C language
+History of C language is interesting to know. Here we are going to discuss a brief history of the c language.
+C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A.
+Dennis Ritchie is known as the founder of the c language.
+It was developed to overcome the problems of previous languages such as B, BCPL, etc."); 
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 1
+The article is a guide to the hello world program in C in which we write a program to print a "hello world" text on the output screen in C programming language.
+Multiple ways to write a hello world program will be discussed in this article.
+All the programs will be written in C programming language only.
+To successfully run a C program, we will require a C compiler. We will be using a GCC compiler for this purpose.
+
+Let us first install the GCC compiler to our system. We have a separate article with a detailed guide on installing a C compiler on a Windows PC / laptop. You can follow this article: C Compiler for Windows.
+we need a text editor to write our program after setting up the compiler. We can use Notepad as well to write our code.
+Write any C program in the dev c++. For now, let us write the program given below.
+#include<stdio.h>
+int main()
+ {
+    printf("hello world");
+
+    return 0;
+
+}
+ 
+Please try:hello world
+
+OUTPUT:
+hello
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit The article is a guide to the hello world program in C in which we write a program to print a "hello world" text on the output screen in C programming language.
+Multiple ways to write a hello world program will be discussed in this article.
+All the programs will be written in C programming language only.
+To successfully run a C program, we will require a C compiler. We will be using a GCC compiler for this purpose.
+
+Let us first install the GCC compiler to our system. We have a separate article with a detailed guide on installing a C compiler on a Windows PC / laptop. You can follow this article: C Compiler for Windows.
+we need a text editor to write our program after setting up the compiler. We can use Notepad as well to write our code.
+Write any C program in the dev c++. For now, let us write the program given below.
+#include<stdio.h>
+int main()
+ {
+    printf("hello world");
+
+    return 0;
+
+}
+ 
+Please try:
+OUTPUT:
+world
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 2
+If Statement
+The if statement is used to check some given condition and perform some operations depending upon the correctness of that condition. It is mostly used in the scenario where we need to perform the different operations for the different conditions. The syntax of the if statement is given below.
+
+if(expression)
+{
+//code to be executed
+}
+
+If-else Statement
+The if-else statement is used to perform two operations for a single condition. The if-else statement is an extension to the if statement using which, we can perform two different operations, i.e., one is for the correctness of that condition, and the other is for the incorrectness of the condition. Here, we must notice that if and else block cannot be executed simiulteneously. Using if-else statement is always preferable since it always invokes an otherwise case with every if condition. The syntax of the if-else statement is given below.
+
+if(expression){
+//code to be executed if condition is true
+}else{
+//code to be executed if condition is false
+}
+
+If else-if ladder Statement
+The if-else-if ladder statement is an extension to the if-else statement. It is used in the scenario where there are multiple cases to be performed for different conditions. In if-else-if ladder statement, if a condition is true then the statements defined in the if block will be executed, otherwise if some other condition is true then the statements defined in the else-if block will be executed, at the last if none of the condition is true then the statements defined in the else block will be executed. There are multiple else-if blocks possible. It is similar to the switch case statement where the default is executed instead of else block if none of the cases is matched.
+
+if(condition1){
+//code to be executed if condition1 is true
+}else if(condition2){
+//code to be executed if condition2 is true
+}
+else if(condition3){
+//code to be executed if condition3 is true
+}
+...
+else{
+//code to be executed if all the conditions are false
+}
+
+ 
+YOU WANT TO TRY ANY PROBLEMS [1/0]1
+
+1.Write a c program of given number is even or odd
+2.Write a c program of given three number biggest of there
+3.Write a c program of given number is positive or negative if even or odd
+4.Write a c program of given person cast his/her vote
+5.Write a c program of given year is leap or not1
+#include<stdio.h>
+int main()
+{
+int number=0;
+printf("Enter a number:");
+scanf("%d",&number);
+if(number%2==0)
+{
+printf("%d is even number",number);
+}
+else
+{
+printf("%d is odd number"number);
+}
+return 0;
+} 
+If You want to try [1/0]1
+Enter a number:78
+78 is even number
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 3
+Looping statement
+Looping statement is a statement that allows you to execute a block of code repeatedly until a certain condition is met.
+There are three types of looping statements: for loop, while loop, and do-while loop.
+ For loop:
+          for (initialization; condition; increment)
+         {
+          // block of code to be executed repeatedly
+          }
+While loop:
+          while (condition)
+         {
+          // block of code to be executed repeatedly
+          }
+Do-while loop:
+          do
+         {
+          // block of code to be executed repeatedly
+          } while (condition);
+Example problem:
+          Write a program to print the numbers from 1 to 10.
+Solution:
+          int i;
+          for (i = 1; i <= 10; i++)
+                 {
+           printf("%d", i);
+          }
+                                             
+YOU WANT TO TRY ANY PROBLEMS [1/0]1
+
+1.Write a c program to print sum of first n natural numbers using while loop
+2.Write a c program to print sum of first 10 natural numbers using do-while
+3.Write a c program to print reverse of given number by using while loop
+4.Write a c program to print  first n natural numbers using for loop
+5.Write a c program to print tables by for loop1
+#include<stdio.h>
+
+void main()
+{
+        int i, n;
+
+        printf("Enter the value of n\t");
+        scanf("%d", &n);
+
+        printf("Printing natural numbers from 1 to %d\n", n);
+
+        i = 1;
+        while(i <= n)
+        {
+                printf("%d\t", i);
+                i++;
+        }
+
+        printf("\n");
+} 
+If You want to try [1/0]1
+Enter the value of n    10
+Printing natural numbers from 1 to 10
+1       2       3       4       5       6       7       8       9       10
+
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 4
+Functions are blocks of code that can be reused.
+To define a function, you use the following
+ syntax:
+void function_name(parameters)
+     {
+             // body of the function\n
+      }
+To call a function, you use the following
+ syntax:
+function_name(arguments);                  
+YOU WANT TO TRY ANY PROBLEMS [1/0]1
+
+1.Write a c program Function without argument and without return value
+2.Write a c program Function without argument and with return value
+3.Write a c program Function with argument and without return value
+4.Write a c program Function with argument and with return value1
+#include<stdio.h>
+void sum();
+void main()
+{
+    printf("\nGoing to calculate the sum of two numbers:");
+    sum();
+}
+void sum()
+{
+    int a,b;
+    printf("\nEnter two numbers");
+    scanf("%d %d",&a,&b);
+    printf("The sum is %d",a+b);
+}   
+If You want to try [1/0]1
+
+Going to calculate the sum of two numbers:
+Enter two numbers10
+20
+The sum is 30
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 5
+One Dimensional Array in C
+An array is defined as the collection of similar type of data items stored at contiguous memory locations. Arrays are the derived data type in C programming language which can store the primitive type of data such as int, char, double, float, etc. It also has the capability to store the collection of derived data types, such as pointers, structure, etc. The array is the simplest data structure where each data element can be randomly accessed by using its index number.
+syntax:
+data_type array_name[array_size];
+Two Dimensional Array in C
+The two-dimensional array can be defined as an array of arrays. The 2D array is organized as matrices which can be represented as the collection of rows and columns. However, 2D arrays are created to implement a relational database lookalike data structure. It provides ease of holding the bulk of data at once which can be passed to any number of functions wherever required.
+Arrays are variables that can store multiple values.
+ To declare an array, you use the following
+syntax:
+ type array_name[size]; 
+YOU WANT TO TRY ANY PROBLEMS [1/0]1
+
+1.Write a c program simple static declaration of 1D_Array
+2.Write a c program simple dynamic declaration of 1D_Array
+3.Write a c program  simple static declaration of 2D_Array
+4.Write a c program  simple dynamic declaration of 2D_Array1
+#include<stdio.h>
+int main(){
+int i=0;
+int marks[5]={20,30,40,50,60};
+for(i=0;i<5;i++){
+printf("%d \n",marks[i]);
+}
+return 0;
+}     
+If You want to try [1/0]1
+20
+30
+40
+50
+60
+
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 6
+
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array1
+If Statement
+The if statement is used to check some given condition and perform some operations depending upon the correctness of that condition. It is mostly used in the scenario where we need to perform the different operations for the different conditions. The syntax of the if statement is given below.
+
+if(expression)
+{
+//code to be executed
+}
+
+If-else Statement
+The if-else statement is used to perform two operations for a single condition. The if-else statement is an extension to the if statement using which, we can perform two different operations, i.e., one is for the correctness of that condition, and the other is for the incorrectness of the condition. Here, we must notice that if and else block cannot be executed simiulteneously. Using if-else statement is always preferable since it always invokes an otherwise case with every if condition. The syntax of the if-else statement is given below.
+
+if(expression){
+//code to be executed if condition is true
+}else{
+//code to be executed if condition is false
+}
+
+If else-if ladder Statement
+The if-else-if ladder statement is an extension to the if-else statement. It is used in the scenario where there are multiple cases to be performed for different conditions. In if-else-if ladder statement, if a condition is true then the statements defined in the if block will be executed, otherwise if some other condition is true then the statements defined in the else-if block will be executed, at the last if none of the condition is true then the statements defined in the else block will be executed. There are multiple else-if blocks possible. It is similar to the switch case statement where the default is executed instead of else block if none of the cases is matched.
+
+if(condition1){
+//code to be executed if condition1 is true
+}else if(condition2){
+//code to be executed if condition2 is true
+}
+else if(condition3){
+//code to be executed if condition3 is true
+}
+...
+else{
+//code to be executed if all the conditions are false
+}
+
+ 
+You want rewrite content sir....: printf("\n%d",n);
+I
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 7
+
+which topic you want, sir: if
+If Statement
+The if statement is used to check some given condition and perform some operations depending upon the correctness of that condition. It is mostly used in the scenario where we need to perform the different operations for the different conditions. The syntax of the if statement is given below.
+
+if(expression)
+{
+//code to be executed
+}
+
+If-else Statement
+The if-else statement is used to perform two operations for a single condition. The if-else statement is an extension to the if statement using which, we can perform two different operations, i.e., one is for the correctness of that condition, and the other is for the incorrectness of the condition. Here, we must notice that if and else block cannot be executed simiulteneously. Using if-else statement is always preferable since it always invokes an otherwise case with every if condition. The syntax of the if-else statement is given below.
+
+if(expression){
+//code to be executed if condition is true
+}else{
+//code to be executed if condition is false
+}
+
+If else-if ladder Statement
+The if-else-if ladder statement is an extension to the if-else statement. It is used in the scenario where there are multiple cases to be performed for different conditions. In if-else-if ladder statement, if a condition is true then the statements defined in the if block will be executed, otherwise if some other condition is true then the statements defined in the else-if block will be executed, at the last if none of the condition is true then the statements defined in the else block will be executed. There are multiple else-if blocks possible. It is similar to the switch case statement where the default is executed instead of else block if none of the cases is matched.
+
+if(condition1){
+//code to be executed if condition1 is true
+}else if(condition2){
+//code to be executed if condition2 is true
+}
+else if(condition3){
+//code to be executed if condition3 is true
+}
+...
+else{
+//code to be executed if all the conditions are false
+}
+
+ 
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 7
+
+which topic you want, sir: for loop
+
+Name not found Exiting..............
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit
+which topic you want, sir: Looping statement
+Looping statement is a statement that allows you to execute a block of code repeatedly until a certain condition is met.
+There are three types of looping statements: for loop, while loop, and do-while loop.
+ For loop:
+          for (initialization; condition; increment)
+         {
+          // block of code to be executed repeatedly
+          }
+While loop:
+          while (condition)
+         {
+          // block of code to be executed repeatedly
+          }
+Do-while loop:
+          do
+         {
+          // block of code to be executed repeatedly
+          } while (condition);
+Example problem:
+          Write a program to print the numbers from 1 to 10.
+Solution:
+          int i;
+          for (i = 1; i <= 10; i++)
+                 {
+           printf("%d", i);
+          }
+                                             
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 7
+
+which topic you want, sir: function
+Functions are blocks of code that can be reused.
+To define a function, you use the following
+ syntax:
+void function_name(parameters)
+     {
+             // body of the function\n
+      }
+To call a function, you use the following
+ syntax:
+function_name(arguments);                  
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 7
+
+which topic you want, sir: array
+One Dimensional Array in C
+An array is defined as the collection of similar type of data items stored at contiguous memory locations. Arrays are the derived data type in C programming language which can store the primitive type of data such as int, char, double, float, etc. It also has the capability to store the collection of derived data types, such as pointers, structure, etc. The array is the simplest data structure where each data element can be randomly accessed by using its index number.
+syntax:
+data_type array_name[array_size];
+Two Dimensional Array in C
+The two-dimensional array can be defined as an array of arrays. The 2D array is organized as matrices which can be represented as the collection of rows and columns. However, 2D arrays are created to implement a relational database lookalike data structure. It provides ease of holding the bulk of data at once which can be passed to any number of functions wherever required.
+Arrays are variables that can store multiple values.
+ To declare an array, you use the following
+syntax:
+ type array_name[size]; 
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 7
+
+which topic you want, sir: histroy
+
+Name not found Exiting..............
+0.History Of C
+1.Introduction To C
+2.If Control statement
+3.Loop Control statement
+4.Functions
+5.array
+6.Sorting
+7.Sorting topic
+8.Exit 8
+
+Exit!!!!!!!!!
+1. Login
+2. Sign up
+3.Exit
+Enter your choice: 3
+
+Exit!!!!!!!!!
+
+--------------------------------
+Process exited after 180.4 seconds with return value 0
+Press any key to continue . . .
