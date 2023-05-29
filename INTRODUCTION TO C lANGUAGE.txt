@@ -1,0 +1,16 @@
+The article is a guide to the hello world program in C in which we write a program to print a "hello world" text on the output screen in C programming language.
+Multiple ways to write a hello world program will be discussed in this article.
+All the programs will be written in C programming language only.
+To successfully run a C program, we will require a C compiler. We will be using a GCC compiler for this purpose.
+
+Let us first install the GCC compiler to our system. We have a separate article with a detailed guide on installing a C compiler on a Windows PC / laptop. You can follow this article: C Compiler for Windows.
+we need a text editor to write our program after setting up the compiler. We can use Notepad as well to write our code.
+Write any C program in the dev c++. For now, let us write the program given below.
+#include<stdio.h>
+int main()
+ {
+    printf("hello world");
+    
+    return 0;
+    
+}

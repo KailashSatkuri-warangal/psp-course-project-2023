@@ -1,0 +1,10 @@
+Functions are blocks of code that can be reused.                 
+To define a function, you use the following
+ syntax:                   
+void function_name(parameters)                  
+     {                
+             // body of the function\n                   
+      }                  
+To call a function, you use the following
+ syntax:                  
+function_name(arguments);                 

@@ -1,0 +1,27 @@
+Looping statement
+Looping statement is a statement that allows you to execute a block of code repeatedly until a certain condition is met.
+There are three types of looping statements: for loop, while loop, and do-while loop.                                  
+ For loop:                                  
+          for (initialization; condition; increment)
+	 {                                   
+          // block of code to be executed repeatedly                                  
+          }                                  
+While loop:                                  
+          while (condition)
+	 {                                   
+          // block of code to be executed repeatedly                                  
+          }                                  
+Do-while loop:                                  
+          do
+	 {                                   
+          // block of code to be executed repeatedly                                  
+          } while (condition);                                  
+Example problem:                                  
+          Write a program to print the numbers from 1 to 10.                                  
+Solution:                                  
+          int i;                                   
+          for (i = 1; i <= 10; i++)
+		 {                                   
+           printf("%d", i);                                   
+          }                                  
+	                                    

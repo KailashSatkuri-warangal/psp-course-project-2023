@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int age;
+	printf("enter your age: ");
+	scanf("%d",&age);
+	if(age>=18)
+	printf("\n you are elgible to cast your vote...");
+	else
+	{
+	printf("\n sorry ,you are not elgible to cast your vote...");
+	printf("still years to cast your vote %d years should wait...",18-age);
+    }
+	return 0;
+}
